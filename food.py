@@ -151,6 +151,8 @@ class Cuisine:
     class Legumes:
       aubergines
       courgettes
+      pois_chiche
+      germes_de_soja
 
       class Crudités:
         tomates
@@ -158,6 +160,10 @@ class Cuisine:
         carottes
         choux_fleur
         radis
+
+      class Champinion:
+        champinions_de_paris
+        cèpes
 
     class Feculents:
 
@@ -469,10 +475,6 @@ class Cuisine:
         salade
 
     class Ingredients:
-      pois_chiche
-      champinions_de_paris
-      cèpes
-      germes_de_soja
       oignon_frits  # e.g. sushi
       wasabi
 
