@@ -47,6 +47,7 @@ class Cuisine:
       apericube
       wasabi_peas
       bhujia
+      biscuits_fromage_Michelle_et_Augustin
 
     class Froide:
       tomate_mozzarella_balsamique
@@ -60,6 +61,7 @@ class Cuisine:
       carpaccio_de_boeuf
       radis_sel_beurre
       tuiles_au_parmesan_pavot
+      Saumon_fromage_frais_roulee
 
     class AmuseBouche:
       # Froid
@@ -67,11 +69,12 @@ class Cuisine:
       # Chaud
       pruneaux_au_lard
 
-    class Verinnes:
+    class Verrines:
       saumon_avocat_fromage_frais
       noix_roqueford
       tomates_creme_feuille_balsamique
       poires_au_foie_gras
+      mousse_carotte_cumin
 
     class Dip:
       tapenade
@@ -111,6 +114,7 @@ class Cuisine:
       toasted_bread
       blini
       gressins_aux_sesame  # pain fin
+      popcorn
 
     class Chaude:
       nems
@@ -135,7 +139,7 @@ class Cuisine:
     class Soupes:
       avgolemono
       gazpacho
-      gazpacho_cucumber
+      gazpacho_cucumber  # (+menthe)
       gazpacho_poivrons
       tomate
       soupe_à_l_oignon
@@ -145,6 +149,8 @@ class Cuisine:
       poisson
       bouillon
       beef_chili
+      mais
+      soupe_de_melon_poire_fromage_frais
 
       croutons
 
@@ -153,6 +159,8 @@ class Cuisine:
       courgettes
       pois_chiche
       germes_de_soja
+      salsifis
+      epinards
 
       class Crudités:
         tomates
@@ -164,6 +172,24 @@ class Cuisine:
       class Champinion:
         champinions_de_paris
         cèpes
+        bolets
+        girolles
+        pleurottes
+        chanterelles
+        rosés_de_prés
+        trompettes_de_la_mort
+        truffes
+
+      class Herbes:
+        oseille
+        aneth
+        basilique
+        thym
+        persil
+        coriandre
+        romarin
+        verveine
+        ciboulette
 
     class Feculents:
 
@@ -173,10 +199,37 @@ class Cuisine:
         risotto
         with_mix_brown
 
+      class Pates:
+        Spaghettis
+        Tagliatelles
+        Torsades
+        Macaronis
+        Coquilles
+        Orecchiettes
+        Papillons
+        Pennes
+        lasagne
+        Cannellonis
+        Cheveux_d_ange
+        ravioles
+        ravioli
+
+        gnocchi
+        orzo  # pates greques
+        nouilles_de_riz
+
+        nouilles_instantanées
+        udon
+        soba
+        ramen
+        sōmen
+
       blé
       croquettes_de_pomme_de_terre
+      flageolets
       frites
       haricots_blancs
+      haricots_rouge
       haricots_verts
       nouilles_instantanées
       pates
@@ -186,7 +239,9 @@ class Cuisine:
       pommes_dauphine
       pommes_de_terre
       pommes_de_terre_sautées
+      pommes_soufflee
       purée
+      Purée_de_carottes
       pâtes_fraiches
       rice_noodles
       rosti
@@ -214,6 +269,8 @@ class Cuisine:
       roti_de_boeuf  # (Boucherie auxerres)
       boulette_de_viande
       rognons
+      Paupiettes_de_veau
+      filet_mignon
 
       class Saucisse:
         knacki
@@ -221,6 +278,10 @@ class Cuisine:
         merguez
         boudin_blanc
         boudin_noir
+        andouillette
+        morteau
+        montbéliard
+        strasbourg
 
       class Charcuterie:
         chorizo
@@ -249,6 +310,9 @@ class Cuisine:
       rilletes_de_thon
       saumon
       saumon_fumé
+      cabillaud  # (ou Morue quand seche) (e.g. fish and chips)
+      dorade # (bof)
+      anchois
 
       class FruitsDeMer:
         moules
@@ -284,10 +348,12 @@ class Cuisine:
       bechamel
       oignons_caramelisés
       sauce_forestiere
+      sauce_champignon  # creme, champinions hachés
 
       sauce_chasseur  # (+ gelée de groseille)
       sauce_miel
       sauce_hollandaise
+      sauce_madere  # Beurre, echalotte, bouillon, vin
 
       # Sauce salades
       vinaigre_balsamic
@@ -334,6 +400,7 @@ class Cuisine:
       basilic
       muscade
 
+      pignons_de_pin
       graine_de_fenouilles
       échalote
       ail
@@ -367,7 +434,6 @@ class Cuisine:
       fried_chicken
       gambas_coco_curry_à_l_ananas
       hachis_parmentier
-      jambon_au_porto
       lasagne
       nouilles_instantanées
 
@@ -391,7 +457,6 @@ class Cuisine:
       raviolis
       roti_de_porc_aux_ananas
       roti_de_porc_aux_pruneaux
-      tartiflette
       tomates_farcies
 
     class SeaBased:
@@ -399,6 +464,8 @@ class Cuisine:
       moule_frites_creme
       quenelles
       saumon_papillotes
+      saumon_teriyaki
+      sashimi_mariné
 
     class FeuillesDeBricks:
       croustillant_de_chèvre
@@ -411,11 +478,14 @@ class Cuisine:
       gratin_de_pates
       gratin_de_quenelle
       gratin_de_poissons
+      jambon_au_porto
+      tartiflette
 
     class Tarte:
       épinards
       quiche_lorraine
       quiche_aux_thon_tomate
+      tarte_aux_onions
       tourte
       tourte_aux_champinions
       tourte_aux_epinards
@@ -425,6 +495,10 @@ class Cuisine:
       caesar
       saumon_creme_fraiche
       ananas_avocat_crevette
+      tomate_mozzarella_balsamique
+      oranges_anchois_huile
+      carottes_cornichons_raisins_tomates_séchées_vinaigre
+      concombres_crème
 
       class Base:
         romaine
@@ -539,6 +613,8 @@ class Cuisine:
       pain_d_epice
       ananas_frit  # Frits
       riz_au_lait
+      salade_de_fruit
+      iles_flottante
 
     class Fruits:
       brugnon
@@ -552,6 +628,11 @@ class Cuisine:
       poire
       pasteque
       ananas
+      rhubarbe
+
+      fruits_au_sirop
+      compote
+      pâte_de_fruit
 
       class FruitRouges:
         cassis
@@ -579,6 +660,9 @@ class Cuisine:
       galette_des_rois
       cake_cappuccino  # petit beurres trempés dans café et recouvert de chocola
       flan_pomme_caramel
+      pommes_Anna
+      Gâteau_fromage_blanc_raisin
+
 
     class Tartes:
       tarte_tatin
@@ -586,9 +670,10 @@ class Cuisine:
       tarte_aux_prunes
       tarte_frangipane_abricot
       tarte_frangipane_poire
+      tarte_rhubarbe
 
     class Bonbon:
-      loucum
+      loukoum
       arlequin
       têtes_brulées
       haribo
@@ -601,17 +686,27 @@ class Cuisine:
       kinder_bueno
       kinder_surprise
       kitkat
+      nougat
       mars
+
+      calissons
+      bêtise_de_Cambrai
+      berlingot_de_Carpentras
+
 
     class Pâtisserie:
       opera
       religieuse
+      financier
       paris_brest
       mille_feuille
       éclair  # chocolat, caffé
       tartelettes_aux_fruits
       meringues
       choux_a_la_creme
+      egg_tart
+      macaron # (gros)
+      Turkish_pastry
 
       class Macarons:
         lavende
@@ -623,6 +718,7 @@ class Cuisine:
         vanille
 
     class Laitages:
+      compote_d_abricot
       compote_de_pommes
       compote_de_pommes_chataigne
       danette_caffe
@@ -682,6 +778,10 @@ class Cuisine:
       delacre_sprits
       delacre_assortiment_tea_time
       speculoos
+      chips_de_bananes
+      sablees_de_nancay
+      Ricciarelli
+      Granola_bars
 
     class Chocolat:
       chocolat_poulain
@@ -699,11 +799,14 @@ class Cuisine:
     class Verrines:
       citron_meringué
       fraises_speculoos_yaourt
+      mousse  # Cafe, chocolat,... Voir laitage
+      mousse_a_l_orange  # Ou clementine
 
     class Ingredients:
       sucre
       sucre_glace
       cassonade
+      Cannelle
       confetti
       mascarpone
       pâte_brisée
@@ -712,10 +815,14 @@ class Cuisine:
       raisins_sec
       amandes_en_poudre
       amandes_concassées
+      crème_anglaise
+      eau_fleur_d_orange
+      creme_anglaise
 
   class Boisson:
 
     class Soft:
+      eau_minérale
       jus_de_tomate
       jus_d_abricot
       jus_de_pomme
@@ -724,6 +831,7 @@ class Cuisine:
       jus_multifruit
       jus_de_citron
       jus_de_guyave
+      jus_de_rhubarbe
       sirop_monin
       sirop_monin_fruit_de_la_passion
       pulco_citron
@@ -760,6 +868,7 @@ class Cuisine:
       vin_blanc
       vin_rose
       vin_rouge
+      porto
       champagne
       planteur
 
@@ -782,6 +891,7 @@ class World:
 
     class Italian:
       piccata  # veal, chicken
+      Parmigiana
 
     class GreatBritain:
       fish_and_chips
@@ -820,7 +930,7 @@ class World:
       dolmas
 
     class Turkey:
-      pass
+      Turkish_pastry
 
   class Ameriques:
 
@@ -831,19 +941,25 @@ class World:
       oignon_rings
       avocado_toast
 
+      sushiritto
+      poke_bowl
+
       # Brunch
       hash_brown
       eggs_benedict
       saucisses  # petites saucisse breakfast
       flageolets_beans  # haricots blancs avec sauce tomate sucrée
 
-      phili_cheesesteak
-
       cheesesteak
       gumbo_soup
 
       zuchini_bread
       banana_bread
+
+      class Sandwitch:
+        pulled_pork
+        philly_cheesesteak
+        sloppy_joes
 
       class FastFood:
         katsu_burger
@@ -858,6 +974,8 @@ class World:
       gyoza
       takoyaki
       sushi
+      maki
+      Sashimi
       ramen
       okonomiyaki
       chicken_katzu_curry
@@ -867,6 +985,25 @@ class World:
       gari  # gingembre confit
 
       sauce_teriaki
+
+      class Sushi:
+        Avocat
+        Crevette grillé
+        Thon
+        Saumon
+        Sauce_soja
+        Sauce_crème
+        Sauce_orange
+        Sorte_de_cornflakes_soupoudré_au_dessus
+        Fois_gras
+
+      class Champinion:
+        Shimeji
+        Matsusake
+        Enoki
+        Shiitake
+        Kikurage
+        Pleurote_huître
 
     class Chineese:
       pork_au_caramel
@@ -897,6 +1034,7 @@ class World:
 
     class Korean:
       korean_fried_chicken
+      kimchi # (choux pimenté)
 
 
 class Ustensile:
