@@ -339,6 +339,7 @@ class Cuisine:
       sauce_soja_sucré
       sauce_teriyaki
       sauce_cocktail
+      # See https://fr.wikipedia.org/wiki/Moutarde_(condiment)#Diff%C3%A9rents_types_de_moutardes
       moutarde_fine
       moutarde_graine
       moutarde_savora
